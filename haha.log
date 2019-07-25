@@ -1,0 +1,1043 @@
+[32m[47mINFO    [0m [32mLoading environment variables from C:\Users\asus\Desktop\my_mubu\.env[0m
+[36m[47mDEBUG   [0m [36mSet OS environment variable: USERNAME[0m
+[36m[47mDEBUG   [0m [36mSet OS environment variable: PASSWORD[0m
+[32m[47mINFO    [0m [32mStart to run testcase: creat new doc[0m
+[36m[47mDEBUG   [0m [36mcall setup hook actions.[0m
+[36m[47mDEBUG   [0m [36mcall hook function: LazyString(${print_documentId()})[0m
+[32m[47mINFO    [0m [32mGET /[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> GET /
+> kwargs: {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/'
+method           : 'GET'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/'
+status_code      : 200
+reason           : ''
+cookies          : <RequestsCookieJar[Cookie(version=0, name='SESSION', value='ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi', port=None, port_specified=False, domain='mubu.com', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure=False, expires=None, discard=True, comment=None, comment_url=None, rest={'HttpOnly': None, 'SameSite': 'Lax'}, rfc2109=False), Cookie(version=0, name='csrf_token', value='e869263b-991a-4c79-bea5-e76c3bc645e3', port=None, port_specified=False, domain='mubu.com', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure=False, expires=1563864634, discard=False, comment=None, comment_url=None, rest={}, rfc2109=False), Cookie(version=0, name='data_unique_id', value='f79d634b-53b8-4717-b203-205ca0b55369', port=None, port_specified=False, domain='mubu.com', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure=False, expires=1566454834, discard=False, comment=None, comment_url=None, rest={}, rfc2109=False)]>
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:23 GMT', 'Vary': 'Accept-Encoding', 'Set-Cookie': 'csrf_token=268c3bea-ea72-4c93-ad7d-258838d33dd1; Max-Age=1800; Expires=Tue, 23-Jul-2019 06:50:23 GMT; Path=/, data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; Max-Age=2592000; Expires=Thu, 22-Aug-2019 06:20:23 GMT; Path=/, csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; Max-Age=1800; Expires=Tue, 23-Jul-2019 06:50:23 GMT; Path=/, SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; Path=/; HttpOnly; SameSite=Lax', 'Content-Language': 'en-US', 'X-TT-TIMESTAMP': '1563862823.189', 'Content-Encoding': 'gzip', 'Via': 'cache2.l2nu20-1[79,0], cache4.cn641[99,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628231096278e', 'Connection': 'keep-alive'}
+content_type     : 'text/html;charset=UTF-8'
+text             : '<!DOCTYPE html>\n<html lang="zh-CN">\n<head>\n<title>幕布 - 极简大纲笔记 | 一键生成思维导图</title>\n<meta charset="utf-8">\n<meta name="renderer" content="webkit"/>\n<meta name="keywords" content="幕布,笔记,记事,任务管理,工作计划,效率工具,脑图,思维管理,思维导图,头脑风暴,outline工具"/>\n<meta name="description" content="幕布是一款结合了大纲笔记和思维导图的头脑管理工具，帮你用更高效的方式和更清晰的结构来记录笔记、管理任务、制定计划甚至是组织头脑风暴。完整覆盖电脑端和移动端"/>\n<meta name="viewport"\ncontent="width=device-width, viewport-fit=cover, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">\n<link rel="shortcut i ... OMITTED 6962 CHARACTORS ...'
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 343.26 ms, response_length: 8638 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[32m[47mINFO    [0m [32mGET /favicon.ico[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> GET /favicon.ico
+> kwargs: {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/favicon.ico'
+method           : 'GET'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369'}
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/favicon.ico'
+status_code      : 200
+reason           : 'OK'
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'image/x-icon;charset=UTF-8', 'Content-Length': '4286', 'Date': 'Mon, 22 Jul 2019 20:57:56 GMT', 'Cache-Control': 'max-age=86400', 'Expires': 'Tue, 23 Jul 2019 20:57:56 GMT', 'Last-Modified': 'Fri, 19 Jul 2019 12:01:12 GMT', 'X-TT-TIMESTAMP': '1563829076.271', 'Accept-Ranges': 'bytes', 'Via': 'cache2.l2cn1819[0,304-0,H], cache15.l2cn1819[0,0], cache7.cn641[0,200-0,H], cache4.cn641[3,0]', 'x-alicdn-da-ups-status': 'endInner,0,304', 'Ali-Swift-Global-Savetime': '1563566755', 'Age': '33747', 'X-Cache': 'HIT TCP_MEM_HIT dirn:11:2312695', 'X-Swift-SaveTime': 'Tue, 23 Jul 2019 04:10:54 GMT', 'X-Swift-CacheTime': '86400', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628232606809e', 'Connection': 'keep-alive'}
+content_type     : 'image/x-icon;charset=UTF-8'
+content          : b'\x00\x00\x01\x00\x01\x00  \x00\x00\x01\x00 \x00\xa8\x10\x00\x00\x16\x00\x00\x00(\x00\x00\x00 \x00\x00\x00@\x00\x00\x00\x01\x00 \x00\x00\x00\x00\x00\x00\x10\x00\x00\x13\x0b\x00\x00\x13\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xff\x05\xff\xff\xff%\xff\xff\xffY\xff\xff\xff\x89\xff\xff\xff\xaa\xff\xff\xff\xbb\xff\xff\xff\xbc\xff\xff\xff\xad\xff\xff\xff\x8d\xff\xff\xff^\xff\xff\xff*\xff\xff\xff\x07\xff\xff\xff\x00\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xff\x0b\xff\xff\xffJ\xff\xff\xff\xa1\xff\xff\xff\xdd\xff\xff\xff\xf8\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf9\xff\xff\xff\xe1\xff\xff\xff\xa9\xff\xff\xffT\xff\xff\xff\x0f\xff\xff\xff\x00\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x02\xff\xff\xff<\xff\xff\xff\xb1\xff\xff\xff\xf5\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf8\xff\xff\xff\xbb\xff\xff\xffH\xff\xff\xff\x04\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x0b\xff\xff\xfft\xff\xff\xff\xe9\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xef\xff\xff\xff\x83\xff\xff\xff\x10\xff\xff\xff\x00\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x10\xff\xff\xff\x93\xff\xff\xff\xf9\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfc\xff\xff\xff\xa4\xff\xff\xff\x17\xff\xff\xff\x00\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x0b\xff\xff\xff\x93\xff\xff\xff\xfc\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff\xa5\xff\xff\xff\x12\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x01\xff\xff\xfft\xff\xff\xff\xf9\xff\xff\xff\xff\xfd\xfd\xfd\xff\xde\xdd\xdd\xff\xc2\xc1\xc0\xff\xd7\xd6\xd6\xff\xfa\xfa\xfa\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfa\xfa\xfa\xff\xd6\xd5\xd5\xff\xc2\xc1\xc0\xff\xdf\xde\xde\xff\xfd\xfd\xfd\xff\xff\xff\xff\xff\xff\xff\xff\xfd\xff\xff\xff\x88\xff\xff\xff\x05\xff\xff\xff\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xff=\xff\xff\xff\xe8\xff\xff\xff\xff\xfe\xfe\xfe\xff\xb1\xaf\xaf\xffRMM\xffA<;\xffKGF\xff\x9c\x99\x99\xff\xf9\xf9\xf9\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf9\xf9\xf9\xff\x9a\x97\x97\xffKFE\xffA<;\xffSNM\xff\xb3\xb1\xb1\xff\xfe\xfe\xfe\xff\xff\xff\xff\xff\xff\xff\xff\xf1\xff\xff\xffP\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xff\x0b\xff\xff\xff\xb0\xff\xff\xff\xff\xff\xff\xff\xff\xe1\xe0\xe0\xffTON\xff<76\xff?:9\xff>87\xffFA@\xff\xca\xc9\xc8\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xc9\xc8\xc7\xffEA@\xff>98\xff?:9\xff<76\xffTPO\xff\xe1\xe1\xe1\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xc3\xff\xff\xff\x14\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xffK\xff\xff\xff\xf5\xff\xff\xff\xff\xff\xff\xff\xff\xc8\xc6\xc6\xffB>=\xff?:9\xff?:9\xff?:9\xff=87\xff\xa9\xa7\xa6\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xa9\xa7\xa6\xff=87\xff?:9\xff?:9\xff?:9\xffB>=\xff\xc8\xc6\xc6\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfb\xff\xff\xff`\xff\xff\xff\x00\xff\xff\xff\x04\xff\xff\xff\xa1\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xdc\xdb\xdb\xffOKJ\xff>98\xff?:9\xff?:9\xffC>=\xff\xc3\xc1\xc1\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xc3\xc1\xc1\xffC>=\xff?:9\xff?:9\xff>98\xffOKJ\xff\xdc\xdb\xdb\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xb6\xff\xff\xff\x0b\xff\xff\xff&\xff\xff\xff\xdc\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfd\xfd\xfd\xff\x9c\x99\x99\xff@;:\xff?:9\xff=87\xff\x82\x7f~\xff\xf6\xf5\xf5\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf6\xf5\xf5\xff\x81~}\xff=87\xff?:9\xff@;:\xff\x9d\x9a\x9a\xff\xfd\xfd\xfd\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xe9\xff\xff\xff8\xff\xff\xffX\xff\xff\xff\xf7\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf1\xf0\xf0\xffokk\xff;65\xff\\XW\xff\xe3\xe2\xe2\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfc\xfb\xfb\xff\xfc\xfb\xfb\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xe1\xe0\xe0\xffZUU\xff;65\xffron\xff\xf2\xf2\xf2\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfd\xff\xff\xffr\xff\xff\xff\x88\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xba\xb8\xb8\xff@;:\xff\xa0\x9e\x9d\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfb\xfa\xfa\xff\xbb\xb9\xb9\xffzwv\xff{wv\xff\xbb\xb9\xb9\xff\xfb\xfa\xfa\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\x9c\x99\x98\xffA<;\xff\xbe\xbd\xbc\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xa4\xff\xff\xff\xaa\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xe4\xe3\xe3\xff\\XW\xff\xcf\xcd\xcd\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xbb\xb9\xb9\xffFA@\xff;65\xff;65\xffFA@\xff\xbb\xb9\xb9\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xcb\xca\xca\xff]YX\xff\xe6\xe6\xe6\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xc4\xff\xff\xff\xbb\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf1\xf0\xf0\xffson\xff\xde\xdd\xdd\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfc\xfc\xfc\xff{wv\xff;65\xff?:9\xff?:9\xff;65\xff{wv\xff\xfc\xfc\xfc\xff\xff\xff\xff\xff\xff\xff\xff\xff\xdd\xdc\xdc\xffsoo\xff\xf1\xf1\xf1\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xd4\xff\xff\xff\xbc\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf1\xf1\xf1\xffsoo\xff\xdd\xdc\xdc\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfc\xfc\xfc\xff{wv\xff;65\xff?:9\xff?:9\xff;65\xff{wv\xff\xfc\xfc\xfc\xff\xff\xff\xff\xff\xff\xff\xff\xff\xde\xdd\xdd\xffson\xff\xf1\xf0\xf0\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xd4\xff\xff\xff\xad\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xe6\xe6\xe6\xff]YX\xff\xcb\xca\xca\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xbb\xb9\xb9\xffFA@\xff;65\xff;65\xffFA@\xff\xbb\xb9\xb9\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xcf\xcd\xcd\xff\\XW\xff\xe4\xe3\xe3\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xc6\xff\xff\xff\x8d\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xbe\xbd\xbc\xffA<;\xff\x9c\x99\x98\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfb\xfa\xfa\xff\xbb\xb9\xb9\xffzwv\xff{wv\xff\xbb\xb9\xb9\xff\xfb\xfa\xfa\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xa0\x9e\x9d\xff@;:\xff\xba\xb8\xb8\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xa8\xff\xff\xff^\xff\xff\xff\xf9\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf2\xf2\xf2\xffron\xff;65\xffZUU\xff\xe1\xe0\xe0\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfc\xfb\xfb\xff\xfc\xfb\xfb\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xe3\xe2\xe2\xff\\XW\xff;65\xffokk\xff\xf1\xf0\xf0\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfd\xff\xff\xffx\xff\xff\xff+\xff\xff\xff\xe1\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfd\xfd\xfd\xff\x9d\x9a\x9a\xff@;:\xff?:9\xff=87\xff\x81~}\xff\xf6\xf5\xf5\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf6\xf5\xf5\xff\x82\x7f~\xff=87\xff?:9\xff@;:\xff\x9c\x99\x99\xff\xfd\xfd\xfd\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xec\xff\xff\xff>\xff\xff\xff\x06\xff\xff\xff\xa9\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xdc\xdb\xdb\xffOKJ\xff>98\xff?:9\xff?:9\xffC>=\xff\xc3\xc1\xc1\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xc3\xc1\xc1\xffC>=\xff?:9\xff?:9\xff>98\xffOKJ\xff\xdc\xdb\xdb\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xbd\xff\xff\xff\x0f\xff\xff\xff\x00\xff\xff\xffT\xff\xff\xff\xf8\xff\xff\xff\xff\xff\xff\xff\xff\xc8\xc6\xc6\xffB>=\xff?:9\xff?:9\xff?:9\xff=87\xff\xa9\xa7\xa6\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xa9\xa7\xa6\xff=87\xff?:9\xff?:9\xff?:9\xffB>=\xff\xc8\xc6\xc6\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfd\xff\xff\xffi\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xff\x0f\xff\xff\xff\xba\xff\xff\xff\xff\xff\xff\xff\xff\xe1\xe1\xe1\xffTPO\xff<76\xff?:9\xff>98\xffEA@\xff\xc9\xc8\xc7\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xca\xc9\xc8\xffFA@\xff>87\xff?:9\xff<76\xffTON\xff\xe1\xe0\xe0\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xcc\xff\xff\xff\x1a\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xffI\xff\xff\xff\xee\xff\xff\xff\xff\xfe\xfe\xfe\xff\xb3\xb1\xb1\xffSNM\xffA<;\xffKFE\xff\x9a\x97\x97\xff\xf9\xf9\xf9\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf9\xf9\xf9\xff\x9c\x99\x99\xffKGF\xffA<;\xffRMM\xff\xb1\xaf\xaf\xff\xfe\xfe\xfe\xff\xff\xff\xff\xff\xff\xff\xff\xf6\xff\xff\xff\\\xff\xff\xff\x00\xff\xff\xff\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x03\xff\xff\xff\x84\xff\xff\xff\xfc\xff\xff\xff\xff\xfd\xfd\xfd\xff\xdf\xde\xde\xff\xc2\xc1\xc0\xff\xd6\xd5\xd5\xff\xfa\xfa\xfa\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfa\xfa\xfa\xff\xd7\xd6\xd6\xff\xc2\xc1\xc0\xff\xde\xdd\xdd\xff\xfd\xfd\xfd\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\x98\xff\xff\xff\x08\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x10\xff\xff\xff\xa3\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xb5\xff\xff\xff\x19\xff\xff\xff\x00\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xff\x17\xff\xff\xff\xa5\xff\xff\xff\xfd\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff\xff\xb5\xff\xff\xff!\xff\xff\xff\x00\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xff\x11\xff\xff\xff\x88\xff\xff\xff\xf1\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xf6\xff\xff\xff\x98\xff\xff\xff\x19\xff\xff\xff\x00\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x05\xff\xff\xffO\xff\xff\xff\xc4\xff\xff\xff\xfa\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfc\xff\xff\xff\xcd\xff\xff\xff\\\xff\xff\xff\t\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xff\x13\xff\xff\xff_\xff\xff\xff\xb6\xff\xff\xff\xea\xff\xff\xff\xfd\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xfd\xff\xff\xff\xed\xff\xff\xff\xbe\xff\xff\xffi\xff\xff\xff\x19\xff\xff\xff\x00\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\x00\xff\xff\xff\x00\xff\xff\xff\x0b\xff\xff\xff8\xff\xff\xffr\xff\xff\xff\xa4\xff\xff\xff\xc4\xff\xff\xff\xd4\xff\xff\xff\xd4\xff\xff\xff\xc7\xff\xff\xff\xa8\xff\xff\xffx\xff\xff\xff>\xff\xff\xff\x0f\xff\xff\xff\x00\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xc0\x03\xff\xff\x00\x00\xff\xfc\x00\x00?\xf8\x00\x00\x1f\xf0\x00\x00\x0f\xe0\x00\x00\x07\xc0\x00\x00\x03\xc0\x00\x00\x03\x80\x00\x00\x01\x80\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x00\x00\x01\x80\x00\x00\x01\xc0\x00\x00\x03\xc0\x00\x00\x03\xe0\x00\x00\x07\xf0\x00\x00\x0f\xf8\x00\x00\x1f\xfc\x00\x00?\xff\x00\x00\xff\xff\xc0\x03\xff'
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 52.86 ms, response_length: 4286 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[32m[47mINFO    [0m [32mGET /login[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> GET /login
+> kwargs: {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/login'
+method           : 'GET'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369'}
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/login'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:23 GMT', 'Vary': 'Accept-Encoding', 'Content-Language': 'en-US', 'X-TT-TIMESTAMP': '1563862823.394', 'Content-Encoding': 'gzip', 'Via': 'cache31.l2nu20-1[73,0], cache4.cn641[101,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628233136967e', 'Connection': 'keep-alive'}
+content_type     : 'text/html;charset=UTF-8'
+text             : '<!DOCTYPE html>\n<html lang="zh-CN">\n<head>\n<title>登录幕布</title>\n<meta charset="utf-8">\n<meta name="renderer" content="webkit"/>\n<meta name="viewport"\ncontent="width=device-width, viewport-fit=cover, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">\n<link rel="shortcut icon" href="/favicon.ico">\n<link rel="stylesheet" href="/asset/dep/icomoon/style-ba43dd96a4.css"/>\n<style type="text/css">\n@font-face {\nfont-family: "SourceSansPro";\nsrc: url("/asset/dep/font/SourceSansPro-Regular.ttf"); ... OMITTED 2116 CHARACTORS ...'
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 154.17 ms, response_length: 2730 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/login/submit[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'data': {'password': 'Mjjnpl628', 'phone': '18566627966', 'remember': 'true'}, 'headers': {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/login/submit
+> kwargs: {'data': {'password': 'Mjjnpl628', 'phone': '18566627966', 'remember': 'true'}, 'headers': {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/login/submit'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369', 'Content-Length': '50'}
+body             : 'password=Mjjnpl628&phone=18566627966&remember=true'
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/login/submit'
+status_code      : 200
+reason           : ''
+cookies          : <RequestsCookieJar[Cookie(version=0, name='user_persistence', value='9582d47e-6db6-4f10-a8fe-5297c6c980df', port=None, port_specified=False, domain='mubu.com', domain_specified=False, domain_initial_dot=False, path='/', path_specified=True, secure=False, expires=1566454835, discard=False, comment=None, comment_url=None, rest={}, rfc2109=False)]>
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:23 GMT', 'Vary': 'Accept-Encoding', 'Set-Cookie': 'user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df; Max-Age=2592000; Expires=Thu, 22-Aug-2019 06:20:23 GMT; Path=/', 'X-TT-TIMESTAMP': '1563862823.561', 'Content-Encoding': 'gzip', 'Via': 'cache2.l2nu20-1[85,0], cache4.cn641[106,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628234757480e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': None, 'data': {'next': '/list'}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 159.23 ms, response_length: 45 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> None[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals None(NoneType)	==> pass[0m
+[32m[47mINFO    [0m [32mGET /list[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> GET /list
+> kwargs: {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/list'
+method           : 'GET'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df'}
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/list'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:23 GMT', 'Vary': 'Accept-Encoding', 'Content-Language': 'en-US', 'X-TT-TIMESTAMP': '1563862823.716', 'Content-Encoding': 'gzip', 'Via': 'cache17.l2nu20-1[83,0], cache4.cn641[105,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628236317986e', 'Connection': 'keep-alive'}
+content_type     : 'text/html;charset=UTF-8'
+text             : '<!DOCTYPE html>\n<html lang="zh-CN">\n<head>\n<title>我的文档 - 幕布</title>\n<meta charset="utf-8">\n<meta name="renderer" content="webkit"/>\n<meta name="viewport"\ncontent="width=device-width, viewport-fit=cover, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">\n<link rel="shortcut icon" href="/favicon.ico">\n<link rel="stylesheet" href="/asset/dep/icomoon/style-ba43dd96a4.css"/>\n<style type="text/css">\n@font-face {\nfont-family: "SourceSansPro";\nsrc: url("/asset/dep/font/SourceSansPro-Regular.t ... OMITTED 14497 CHARACTORS ...'
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 158.09 ms, response_length: 17279 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/list/tip_new_update[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'data': '', 'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/list/tip_new_update
+> kwargs: {'data': '', 'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/list/tip_new_update'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '0'}
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/list/tip_new_update'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:23 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862823.850', 'Content-Encoding': 'gzip', 'Via': 'cache2.l2nu20-1[59,0], cache4.cn641[79,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628237898521e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': None, 'data': {'tip': True}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 127.66 ms, response_length: 41 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> None[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals None(NoneType)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/list/get[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'data': {'folderId': '0', 'keywords': '', 'sort': 'time', 'source': ''}, 'headers': {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/list/get
+> kwargs: {'data': {'folderId': '0', 'keywords': '', 'sort': 'time', 'source': ''}, 'headers': {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/list/get'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '38'}
+body             : 'folderId=0&keywords=&sort=time&source='
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/list/get'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:23 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862823.982', 'Content-Encoding': 'gzip', 'Via': 'cache17.l2nu20-1[60,0], cache4.cn641[83,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628239198926e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': None, 'data': {'folders': [], 'documents': [{'encrypted': 0, 'name': 'demo789', 'updateTime': 1563862580648, 'shareId': None, 'id': 'fLJhKnRYTU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563862519279, 'shareId': None, 'id': 'fbQPok2grU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563862350312, 'shareId': None, 'id': 'kK1Zl4WfHU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563862319838, 'shareId': None, 'id': 'APZBzqWm3U', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563862260008, 'shareId': None, 'id': 'Bn8BwYADHU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563862188137, 'shareId': None, 'id': 'uIt0vKsWhU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563862051012, 'shareId': None, 'id': 'hn5SthDm3U', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563862017630, 'shareId': None, 'id': 'zH8riCEsrU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563861971855, 'shareId': None, 'id': 'aIqhs2VvfU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'new_title_2019-07-23 13:59:03', 'updateTime': 1563861537460, 'shareId': None, 'id': 'zq4PyYgufU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'new_title_1563852131180', 'updateTime': 1563852124583, 'shareId': None, 'id': '5OlMuy_u5U', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563848682497, 'shareId': None, 'id': 's08upATbHU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563848542158, 'shareId': None, 'id': 'glmxQouGhU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563847761446, 'shareId': None, 'id': 'e2D_K3gmhU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563847734602, 'shareId': None, 'id': 'uI5n6aP8TU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563847655584, 'shareId': None, 'id': 'o1pO4ZhATU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563847643484, 'shareId': None, 'id': 'hn4Yg1qTHU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563847624385, 'shareId': None, 'id': '6gydd5LKhU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'new_title_1563797340441', 'updateTime': 1563797337042, 'shareId': None, 'id': 'z8lxH_FYbU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo789', 'updateTime': 1563779504617, 'shareId': None, 'id': 'rXy1xxf51U', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'demo123', 'updateTime': 1563779419999, 'shareId': None, 'id': 'eCxCHivvbU', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': '欢迎使用幕布', 'updateTime': 1563773729374, 'shareId': None, 'id': 'lZgalRx9DU~0', 'stared': 0, 'userName': 'maopolun'}, {'encrypted': 0, 'name': 'HttpRunner 基础、进阶 & 实战（2019.07.20）', 'updateTime': 1563617521932, 'shareId': None, 'id': 'lq5aolFkdU', 'stared': 0, 'userName': 'maopolun'}], 'dir': [], 'folderId': '0'}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 133.65 ms, response_length: 3090 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> None[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals None(NoneType)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/message/get_message_unread[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'data': '', 'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/message/get_message_unread
+> kwargs: {'data': '', 'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/message/get_message_unread'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '0'}
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/message/get_message_unread'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:24 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862824.116', 'Content-Encoding': 'gzip', 'Via': 'cache2.l2nu20-1[59,0], cache4.cn641[78,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628240561412e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': None, 'data': {'unreadCount': 0}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 129.65 ms, response_length: 46 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> None[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals None(NoneType)	==> pass[0m
+[36m[47mDEBUG   [0m [36mcall setup hook actions.[0m
+[36m[47mDEBUG   [0m [36mcall hook function: LazyString(${print_documentId()})[0m
+[32m[47mINFO    [0m [32mPOST /api/list/create_doc[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'data': {'folderId': '0', 'type': '0'}, 'headers': {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/list/create_doc
+> kwargs: {'data': {'folderId': '0', 'type': '0'}, 'headers': {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/list/create_doc'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '17'}
+body             : 'folderId=0&type=0'
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/list/create_doc'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:24 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862824.280', 'Content-Encoding': 'gzip', 'Via': 'cache17.l2nu20-1[90,0], cache4.cn641[112,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628241881804e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': None, 'data': {'id': 'j6iFpTHztU'}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 163.57 ms, response_length: 48 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to extract from response object.[0m
+[36m[47mDEBUG   [0m [36mextract: content.data.id	=> j6iFpTHztU[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> None[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals None(NoneType)	==> pass[0m
+[32m[47mINFO    [0m [32mGET /docj6iFpTHztU[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> GET /docj6iFpTHztU
+> kwargs: {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/docj6iFpTHztU'
+method           : 'GET'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df'}
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/docj6iFpTHztU'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'text/html;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:24 GMT', 'Vary': 'Accept-Encoding', 'Content-Language': 'en-US', 'X-TT-TIMESTAMP': '1563862824.459', 'Content-Encoding': 'gzip', 'Via': 'cache2.l2nu20-1[97,0], cache4.cn641[117,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628243612356e', 'Connection': 'keep-alive'}
+content_type     : 'text/html;charset=UTF-8'
+text             : '<!DOCTYPE html>\n<html lang="zh-CN">\n<head>\n<title>无标题 - 幕布</title>\n<meta charset="utf-8">\n<meta name="renderer" content="webkit"/>\n<meta name="viewport"\ncontent="width=device-width, viewport-fit=cover, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">\n<link rel="shortcut icon" href="/favicon.ico">\n<link rel="stylesheet" href="/asset/dep/icomoon/style-ba43dd96a4.css"/>\n<style type="text/css">\n@font-face {\nfont-family: "SourceSansPro";\nsrc: url("/asset/dep/font/SourceSansPro-Regular.tt ... OMITTED 11986 CHARACTORS ...'
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 169.58 ms, response_length: 14298 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to extract from response object.[0m
+[36m[47mDEBUG   [0m [36mextract: memberId: '(.*)'	=> 1338335[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/document/get[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'data': {'docId': 'j6iFpTHztU'}, 'headers': {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/document/get
+> kwargs: {'data': {'docId': 'j6iFpTHztU'}, 'headers': {'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/document/get'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded; charset=UTF-8', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '16'}
+body             : 'docId=j6iFpTHztU'
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/document/get'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:24 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862824.601', 'Content-Encoding': 'gzip', 'Via': 'cache17.l2nu20-1[67,0], cache4.cn641[90,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628245322894e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': 'Success', 'data': {'role': 31, 'baseVersion': 0, 'name': '无标题', 'definition': None}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 139.63 ms, response_length: 98 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> Success[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals Success(str)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.data.name	=> 无标题[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.data.name equals 无标题(str)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/user/current_level[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'data': '', 'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'params': {'document_id': 'j6iFpTHztU'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/user/current_level
+> kwargs: {'data': '', 'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'params': {'document_id': 'j6iFpTHztU'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/user/current_level?document_id=j6iFpTHztU'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '0'}
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/user/current_level?document_id=j6iFpTHztU'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:24 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862824.744', 'Content-Encoding': 'gzip', 'Via': 'cache2.l2nu20-1[60,0], cache4.cn641[79,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628246833405e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': 'Success', 'data': {'level': 1, 'id': 3877624}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 132.64 ms, response_length: 58 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to extract from response object.[0m
+[36m[47mDEBUG   [0m [36mextract: content.data.id	=> 3877624[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> Success[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals Success(str)	==> pass[0m
+[32m[47mINFO    [0m [32mGET /api/ticket/register[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> GET /api/ticket/register
+> kwargs: {'headers': {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/ticket/register'
+method           : 'GET'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df'}
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/ticket/register'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:24 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862824.914', 'Content-Encoding': 'gzip', 'Via': 'cache17.l2nu20-1[96,0], cache4.cn641[119,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628248153830e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': 'Success', 'data': {'ticket': '97ae76f8b073b2c08f4522a6c7195401', 'TTL': 60}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 168.19 ms, response_length: 88 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> Success[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals Success(str)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.data.ticket	=> 97ae76f8b073b2c08f4522a6c7195401[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.data.ticket length_equals 32(int)	==> pass[0m
+[32m[47mINFO    [0m [32mGET /api/middleware/members[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'request-id': 'members:1338335:1563774199323', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'params': {'documentId': 'j6iFpTHztU', 'memberId': '1338335'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> GET /api/middleware/members
+> kwargs: {'headers': {'request-id': 'members:1338335:1563774199323', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'params': {'documentId': 'j6iFpTHztU', 'memberId': '1338335'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/middleware/members?documentId=j6iFpTHztU&memberId=1338335'
+method           : 'GET'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'request-id': 'members:1338335:1563774199323', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df'}
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/middleware/members?documentId=j6iFpTHztU&memberId=1338335'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:25 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862825.055', 'Content-Encoding': 'gzip', 'Via': 'cache2.l2nu20-1[66,0], cache4.cn641[86,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628249874373e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': 'success', 'data': {'roomVersion': -1, 'events': []}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 137.64 ms, response_length: 64 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> success[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals success(str)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:2', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'd'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 0}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 2, 'requestId': 'MESSAGE:3877624:1338335:2', 'token': 'j6iFpTHztU'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/middleware/message
+> kwargs: {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:2', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'd'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 0}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 2, 'requestId': 'MESSAGE:3877624:1338335:2', 'token': 'j6iFpTHztU'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/middleware/message'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:2', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '349'}
+body             : b'{"context": {"appVersion": "0", "os": "Windows", "osVersion": "10", "platform": "web"}, "data": {"message": {"content": [{"name": "nameChanged", "title": "d"}], "documentId": "j6iFpTHztU", "type": "CHANGE", "version": 0}}, "engineType": "MUBU", "messageType": "BROADCAST", "reqId": 2, "requestId": "MESSAGE:3877624:1338335:2", "token": "j6iFpTHztU"}'
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/middleware/message'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:25 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862825.468', 'Content-Encoding': 'gzip', 'Via': 'cache37.l2nu20-1[338,0], cache4.cn641[363,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628251274834e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': 'success', 'data': {'code': 0, 'messageType': 'BROADCAST', 'data': {'ack': {'applyVersion': 0, 'code': 0, 'latestVersion': 1, 'documentId': 'j6iFpTHztU', 'message': 'Success', 'type': 'CHANGE', 'userId': 3877624, 'memberId': '1338335'}}, 'requestId': 'MESSAGE:3877624:1338335:2', 'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'engineType': 'MUBU', 'message': 'Success', 'reqId': 2, 'token': 'j6iFpTHztU'}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 413.89 ms, response_length: 420 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> success[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals success(str)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:4', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'de'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 1}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 4, 'requestId': 'MESSAGE:3877624:1338335:4', 'token': 'j6iFpTHztU'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/middleware/message
+> kwargs: {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:4', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'de'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 1}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 4, 'requestId': 'MESSAGE:3877624:1338335:4', 'token': 'j6iFpTHztU'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/middleware/message'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:4', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '350'}
+body             : b'{"context": {"appVersion": "0", "os": "Windows", "osVersion": "10", "platform": "web"}, "data": {"message": {"content": [{"name": "nameChanged", "title": "de"}], "documentId": "j6iFpTHztU", "type": "CHANGE", "version": 1}}, "engineType": "MUBU", "messageType": "BROADCAST", "reqId": 4, "requestId": "MESSAGE:3877624:1338335:4", "token": "j6iFpTHztU"}'
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/middleware/message'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:25 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862825.682', 'Content-Encoding': 'gzip', 'Via': 'cache2.l2nu20-1[123,0], cache4.cn641[143,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628255586142e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': 'success', 'data': {'code': 0, 'messageType': 'BROADCAST', 'data': {'ack': {'applyVersion': 1, 'code': 0, 'latestVersion': 2, 'documentId': 'j6iFpTHztU', 'message': 'Success', 'type': 'CHANGE', 'userId': 3877624, 'memberId': '1338335'}}, 'requestId': 'MESSAGE:3877624:1338335:4', 'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'engineType': 'MUBU', 'message': 'Success', 'reqId': 4, 'token': 'j6iFpTHztU'}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 200.57 ms, response_length: 420 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> success[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals success(str)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:5', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'dem'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 2}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 5, 'requestId': 'MESSAGE:3877624:1338335:5', 'token': 'j6iFpTHztU'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/middleware/message
+> kwargs: {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:5', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'dem'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 2}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 5, 'requestId': 'MESSAGE:3877624:1338335:5', 'token': 'j6iFpTHztU'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/middleware/message'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:5', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '351'}
+body             : b'{"context": {"appVersion": "0", "os": "Windows", "osVersion": "10", "platform": "web"}, "data": {"message": {"content": [{"name": "nameChanged", "title": "dem"}], "documentId": "j6iFpTHztU", "type": "CHANGE", "version": 2}}, "engineType": "MUBU", "messageType": "BROADCAST", "reqId": 5, "requestId": "MESSAGE:3877624:1338335:5", "token": "j6iFpTHztU"}'
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/middleware/message'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:25 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862825.897', 'Content-Encoding': 'gzip', 'Via': 'cache37.l2nu20-1[128,0], cache4.cn641[152,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628257676731e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': 'success', 'data': {'code': 0, 'messageType': 'BROADCAST', 'data': {'ack': {'applyVersion': 2, 'code': 0, 'latestVersion': 3, 'documentId': 'j6iFpTHztU', 'message': 'Success', 'type': 'CHANGE', 'userId': 3877624, 'memberId': '1338335'}}, 'requestId': 'MESSAGE:3877624:1338335:5', 'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'engineType': 'MUBU', 'message': 'Success', 'reqId': 5, 'token': 'j6iFpTHztU'}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 206.45 ms, response_length: 420 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> success[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals success(str)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:7', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'demo'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 3}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 7, 'requestId': 'MESSAGE:3877624:1338335:7', 'token': 'j6iFpTHztU'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/middleware/message
+> kwargs: {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:7', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'demo'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 3}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 7, 'requestId': 'MESSAGE:3877624:1338335:7', 'token': 'j6iFpTHztU'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/middleware/message'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:7', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '352'}
+body             : b'{"context": {"appVersion": "0", "os": "Windows", "osVersion": "10", "platform": "web"}, "data": {"message": {"content": [{"name": "nameChanged", "title": "demo"}], "documentId": "j6iFpTHztU", "type": "CHANGE", "version": 3}}, "engineType": "MUBU", "messageType": "BROADCAST", "reqId": 7, "requestId": "MESSAGE:3877624:1338335:7", "token": "j6iFpTHztU"}'
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/middleware/message'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:26 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862826.097', 'Content-Encoding': 'gzip', 'Via': 'cache2.l2nu20-1[114,0], cache4.cn641[318,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628259827358e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': 'success', 'data': {'code': 0, 'messageType': 'BROADCAST', 'data': {'ack': {'applyVersion': 3, 'code': 0, 'latestVersion': 4, 'documentId': 'j6iFpTHztU', 'message': 'Success', 'type': 'CHANGE', 'userId': 3877624, 'memberId': '1338335'}}, 'requestId': 'MESSAGE:3877624:1338335:7', 'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'engineType': 'MUBU', 'message': 'Success', 'reqId': 7, 'token': 'j6iFpTHztU'}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 369.01 ms, response_length: 420 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> success[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals success(str)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'demo1'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 4}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 9, 'requestId': 'MESSAGE:3877624:1338335:9', 'token': 'j6iFpTHztU'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/middleware/message
+> kwargs: {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:9', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'demo1'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 4}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 9, 'requestId': 'MESSAGE:3877624:1338335:9', 'token': 'j6iFpTHztU'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/middleware/message'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:9', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '353'}
+body             : b'{"context": {"appVersion": "0", "os": "Windows", "osVersion": "10", "platform": "web"}, "data": {"message": {"content": [{"name": "nameChanged", "title": "demo1"}], "documentId": "j6iFpTHztU", "type": "CHANGE", "version": 4}}, "engineType": "MUBU", "messageType": "BROADCAST", "reqId": 9, "requestId": "MESSAGE:3877624:1338335:9", "token": "j6iFpTHztU"}'
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/middleware/message'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:26 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862826.522', 'Content-Encoding': 'gzip', 'Via': 'cache37.l2nu20-1[146,0], cache4.cn641[179,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628263638309e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': 'success', 'data': {'code': 0, 'messageType': 'BROADCAST', 'data': {'ack': {'applyVersion': 4, 'code': 0, 'latestVersion': 5, 'documentId': 'j6iFpTHztU', 'message': 'Success', 'type': 'CHANGE', 'userId': 3877624, 'memberId': '1338335'}}, 'requestId': 'MESSAGE:3877624:1338335:9', 'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'engineType': 'MUBU', 'message': 'Success', 'reqId': 9, 'token': 'j6iFpTHztU'}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 240.36 ms, response_length: 420 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> success[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals success(str)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:11', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'demo12'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 5}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 11, 'requestId': 'MESSAGE:3877624:1338335:11', 'token': 'j6iFpTHztU'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/middleware/message
+> kwargs: {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:11', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'demo12'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 5}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 11, 'requestId': 'MESSAGE:3877624:1338335:11', 'token': 'j6iFpTHztU'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/middleware/message'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:11', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '356'}
+body             : b'{"context": {"appVersion": "0", "os": "Windows", "osVersion": "10", "platform": "web"}, "data": {"message": {"content": [{"name": "nameChanged", "title": "demo12"}], "documentId": "j6iFpTHztU", "type": "CHANGE", "version": 5}}, "engineType": "MUBU", "messageType": "BROADCAST", "reqId": 11, "requestId": "MESSAGE:3877624:1338335:11", "token": "j6iFpTHztU"}'
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/middleware/message'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:26 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862826.714', 'Content-Encoding': 'gzip', 'Via': 'cache2.l2nu20-1[117,0], cache4.cn641[137,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628265958912e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': 'success', 'data': {'code': 0, 'messageType': 'BROADCAST', 'data': {'ack': {'applyVersion': 5, 'code': 0, 'latestVersion': 6, 'documentId': 'j6iFpTHztU', 'message': 'Success', 'type': 'CHANGE', 'userId': 3877624, 'memberId': '1338335'}}, 'requestId': 'MESSAGE:3877624:1338335:11', 'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'engineType': 'MUBU', 'message': 'Success', 'reqId': 11, 'token': 'j6iFpTHztU'}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 190.76 ms, response_length: 422 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> success[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals success(str)	==> pass[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[36m[47mDEBUG   [0m [36mrequest kwargs(raw): {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:12', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'demo789'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 6}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 12, 'requestId': 'MESSAGE:3877624:1338335:12', 'token': 'j6iFpTHztU'}, 'verify': False}[0m
+[36m[47mDEBUG   [0m [36mprocessed request:
+> POST /api/middleware/message
+> kwargs: {'headers': {'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:12', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'x-requested-with': 'XMLHttpRequest'}, 'json': {'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'data': {'message': {'content': [{'name': 'nameChanged', 'title': 'demo789'}], 'documentId': 'j6iFpTHztU', 'type': 'CHANGE', 'version': 6}}, 'engineType': 'MUBU', 'messageType': 'BROADCAST', 'reqId': 12, 'requestId': 'MESSAGE:3877624:1338335:12', 'token': 'j6iFpTHztU'}, 'verify': False, 'timeout': 120}[0m
+[36m[47mDEBUG   [0m [36m
+================== request details ==================
+url              : '/api/middleware/message'
+method           : 'POST'
+headers          : {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json; charset=UTF-8', 'member-id': '1338335', 'request-id': 'MESSAGE:3877624:1338335:12', 'x-requested-with': 'XMLHttpRequest', 'Cookie': 'SESSION=ZTAxMzE0MGYtNzUwMC00ZmZlLTkyMTgtM2E1NDg0YmMyYThi; csrf_token=e869263b-991a-4c79-bea5-e76c3bc645e3; data_unique_id=f79d634b-53b8-4717-b203-205ca0b55369; user_persistence=9582d47e-6db6-4f10-a8fe-5297c6c980df', 'Content-Length': '357'}
+body             : b'{"context": {"appVersion": "0", "os": "Windows", "osVersion": "10", "platform": "web"}, "data": {"message": {"content": [{"name": "nameChanged", "title": "demo789"}], "documentId": "j6iFpTHztU", "type": "CHANGE", "version": 6}}, "engineType": "MUBU", "messageType": "BROADCAST", "reqId": 12, "requestId": "MESSAGE:3877624:1338335:12", "token": "j6iFpTHztU"}'
+[0m
+[36m[47mDEBUG   [0m [36m
+================== response details ==================
+ok               : True
+url              : '/api/middleware/message'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Server': 'Tengine', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Tue, 23 Jul 2019 06:20:26 GMT', 'Vary': 'Accept-Encoding', 'X-TT-TIMESTAMP': '1563862826.939', 'Content-Encoding': 'gzip', 'Via': 'cache37.l2nu20-1[138,0], cache4.cn641[163,0]', 'Timing-Allow-Origin': '*', 'EagleId': 'df6ff44415638628267961667e', 'Connection': 'keep-alive'}
+content_type     : 'application/json;charset=UTF-8'
+json             : {'code': 0, 'msg': 'success', 'data': {'code': 0, 'messageType': 'BROADCAST', 'data': {'ack': {'applyVersion': 6, 'code': 0, 'latestVersion': 7, 'documentId': 'j6iFpTHztU', 'message': 'Success', 'type': 'CHANGE', 'userId': 3877624, 'memberId': '1338335'}}, 'requestId': 'MESSAGE:3877624:1338335:12', 'context': {'appVersion': '0', 'os': 'Windows', 'osVersion': '10', 'platform': 'web'}, 'engineType': 'MUBU', 'message': 'Success', 'reqId': 12, 'token': 'j6iFpTHztU'}}
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 215.38 ms, response_length: 422 bytes
+[0m
+[36m[47mDEBUG   [0m [36mstart to validate.[0m
+[36m[47mDEBUG   [0m [36mextract: status_code	=> 200[0m
+[36m[47mDEBUG   [0m [36m
+validate: status_code equals 200(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.code	=> 0[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.code equals 0(int)	==> pass[0m
+[36m[47mDEBUG   [0m [36mextract: content.msg	=> success[0m
+[36m[47mDEBUG   [0m [36m
+validate: content.msg equals success(str)	==> pass[0m
+[32m[47mINFO    [0m [32m
+==================== Output ====================
+Variable         : Value
+---------------- : -----------------------------
+documentId       : j6iFpTHztU
+memberId         : 1338335
+userId           : 3877624
+------------------------------------------------
+[0m
+[36m[47mDEBUG   [0m [36mNo html report template specified, use default.[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: C:\Users\asus\Desktop\my_mubu\reports\1563862834.html[0m
+[36m[47mDEBUG   [0m [36mcall teardown hook actions.[0m
+[36m[47mDEBUG   [0m [36mcall hook function: ${print_documentId(${documentId})}[0m
+[32m[47mINFO    [0m [32mLoading environment variables from C:\Users\asus\Desktop\my_mubu\.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: creat new doc[0m
+[32m[47mINFO    [0m [32mGET /[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 289.5 ms, response_length: 8638 bytes
+[0m
+[32m[47mINFO    [0m [32mGET /favicon.ico[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 42.66 ms, response_length: 4286 bytes
+[0m
+[32m[47mINFO    [0m [32mGET /login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 142.62 ms, response_length: 2730 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/login/submit[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 189.87 ms, response_length: 45 bytes
+[0m
+[32m[47mINFO    [0m [32mGET /list[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 142.19 ms, response_length: 17279 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/list/tip_new_update[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 126.95 ms, response_length: 41 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/list/get[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 130.35 ms, response_length: 3216 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/message/get_message_unread[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 130.69 ms, response_length: 46 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/list/create_doc[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 160.57 ms, response_length: 48 bytes
+[0m
+[32m[47mINFO    [0m [32mGET /doctG17Hzni3U[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 158.9 ms, response_length: 14298 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/document/get[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 130.98 ms, response_length: 98 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/user/current_level[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 128.66 ms, response_length: 58 bytes
+[0m
+[32m[47mINFO    [0m [32mGET /api/ticket/register[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 167.55 ms, response_length: 88 bytes
+[0m
+[32m[47mINFO    [0m [32mGET /api/middleware/members[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 139.59 ms, response_length: 64 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 191.7 ms, response_length: 420 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 193.07 ms, response_length: 420 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 220.15 ms, response_length: 420 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 195.23 ms, response_length: 420 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 201.47 ms, response_length: 420 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 215.57 ms, response_length: 422 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST /api/middleware/message[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 193.79 ms, response_length: 422 bytes
+[0m
+[32m[47mINFO    [0m [32m
+==================== Output ====================
+Variable         : Value
+---------------- : -----------------------------
+documentId       : tG17Hzni3U
+memberId         : 1338477
+userId           : 3877624
+------------------------------------------------
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: C:\Users\asus\Desktop\my_mubu\reports\1563862973.html[0m
+[32m[47mINFO    [0m [32mLoading environment variables from C:\Users\asus\Desktop\my_mubu\.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: creat new doc[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 387.44 ms, response_length: 8638 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/favicon.ico[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 49.87 ms, response_length: 4286 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 204.45 ms, response_length: 2730 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/login/submit[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 159.35 ms, response_length: 45 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/list[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 139.97 ms, response_length: 17279 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/tip_new_update[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 132.97 ms, response_length: 41 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/get[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 129.65 ms, response_length: 3342 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/message/get_message_unread[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 134.51 ms, response_length: 46 bytes
+[0m
+[33m[47mWARNING [0m [33mvariable 'documentId' can not be found in variables mapping, failed to export![0m
+[33m[47mWARNING [0m [33mvariable 'memberId' can not be found in variables mapping, failed to export![0m
+[33m[47mWARNING [0m [33mvariable 'userId' can not be found in variables mapping, failed to export![0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: C:\Users\asus\Desktop\my_mubu\reports\1563864208.html[0m
+[32m[47mINFO    [0m [32mLoading environment variables from C:\Users\asus\Desktop\my_mubu\.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: creat new doc[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 350.68 ms, response_length: 8638 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/favicon.ico[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 52.02 ms, response_length: 4286 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 147.61 ms, response_length: 2730 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/login/submit[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 163.04 ms, response_length: 45 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/list[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 141.62 ms, response_length: 17279 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/tip_new_update[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 162.71 ms, response_length: 41 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/get[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 133.41 ms, response_length: 3342 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/message/get_message_unread[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 136.36 ms, response_length: 46 bytes
+[0m
+[33m[47mWARNING [0m [33mvariable 'documentId' can not be found in variables mapping, failed to export![0m
+[33m[47mWARNING [0m [33mvariable 'memberId' can not be found in variables mapping, failed to export![0m
+[33m[47mWARNING [0m [33mvariable 'userId' can not be found in variables mapping, failed to export![0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: C:\Users\asus\Desktop\my_mubu\reports\1563864285.html[0m
+[32m[47mINFO    [0m [32mLoading environment variables from C:\Users\asus\Desktop\my_mubu\.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: creat new doc[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 308.18 ms, response_length: 8638 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/favicon.ico[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 51.85 ms, response_length: 4286 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 298.74 ms, response_length: 2730 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/login/submit[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 171.54 ms, response_length: 45 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/list[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 155.1 ms, response_length: 17279 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/tip_new_update[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 128.67 ms, response_length: 41 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/get[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 131.32 ms, response_length: 3342 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/message/get_message_unread[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 130.27 ms, response_length: 46 bytes
+[0m
+[33m[47mWARNING [0m [33mvariable 'documentId' can not be found in variables mapping, failed to export![0m
+[33m[47mWARNING [0m [33mvariable 'memberId' can not be found in variables mapping, failed to export![0m
+[33m[47mWARNING [0m [33mvariable 'userId' can not be found in variables mapping, failed to export![0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: C:\Users\asus\Desktop\my_mubu\reports\1563864394.html[0m
+[32m[47mINFO    [0m [32mLoading environment variables from C:\Users\asus\Desktop\my_mubu\.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: login system[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 361.8 ms, response_length: 8638 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/favicon.ico[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 7545.25 ms, response_length: 4286 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/login[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/login/submit[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/list[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/tip_new_update[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/get[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/message/get_message_unread[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: C:\Users\asus\Desktop\my_mubu\reports\1563864505.html[0m
+[32m[47mINFO    [0m [32mLoading environment variables from C:\Users\asus\Desktop\my_mubu\.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: login system[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/favicon.ico[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/login[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/login/submit[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/list[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/tip_new_update[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/get[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/message/get_message_unread[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: C:\Users\asus\Desktop\my_mubu\reports\1563864855.html[0m
+[32m[47mINFO    [0m [32mLoading environment variables from C:\Users\asus\Desktop\my_mubu\.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: login system[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/favicon.ico[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/login[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/login/submit[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/list[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/tip_new_update[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/get[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/message/get_message_unread[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: C:\Users\asus\Desktop\my_mubu\reports\1563864957.html[0m
+[32m[47mINFO    [0m [32mLoading environment variables from C:\Users\asus\Desktop\my_mubu\.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: login system[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 314.63 ms, response_length: 8638 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/favicon.ico[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 12.97 ms, response_length: 4286 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 99.73 ms, response_length: 2730 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/login/submit[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 124.67 ms, response_length: 45 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/list[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 263.25 ms, response_length: 17279 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/tip_new_update[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 103.73 ms, response_length: 41 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/get[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 104.72 ms, response_length: 3342 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/message/get_message_unread[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 98.73 ms, response_length: 46 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: C:\Users\asus\Desktop\my_mubu\reports\1563873843.html[0m
+[32m[47mINFO    [0m [32mLoading environment variables from C:\Users\asus\Desktop\my_mubu\.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: login system[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 330.12 ms, response_length: 8638 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/favicon.ico[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 30.92 ms, response_length: 4286 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 140.62 ms, response_length: 2730 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/login/submit[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 125.66 ms, response_length: 45 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/list[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 149.59 ms, response_length: 17279 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/tip_new_update[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 123.9 ms, response_length: 41 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/get[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 104.72 ms, response_length: 3342 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/message/get_message_unread[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 136.64 ms, response_length: 46 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: C:\Users\asus\Desktop\my_mubu\reports\1563883247.html[0m
+[32m[47mINFO    [0m [32mLoading environment variables from C:\Users\asus\Desktop\my_mubu\.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: login system[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 281.33 ms, response_length: 8638 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/favicon.ico[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 16.95 ms, response_length: 4286 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 104.72 ms, response_length: 2730 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/login/submit[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 276.09 ms, response_length: 45 bytes
+[0m
+[32m[47mINFO    [0m [32mGET https://mubu.com/list[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 113.93 ms, response_length: 17279 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/tip_new_update[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 106.71 ms, response_length: 41 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/list/get[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 111.7 ms, response_length: 3342 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://mubu.com/api/message/get_message_unread[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 100.73 ms, response_length: 46 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: C:\Users\asus\Desktop\my_mubu\reports\1563885340.html[0m

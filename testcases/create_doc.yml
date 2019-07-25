@@ -1,0 +1,423 @@
+config:
+    name: creat new doc
+    variables: {}
+    verify: False
+#    base_url: ${get_base_url()}
+    export:
+        - documentId
+        - memberId
+        - userId
+#    teardown_hooks:
+#        - ${print_documentId(${documentId})}
+
+
+teststeps:
+-   name: login
+    testcase: testcases/login.yml
+#    setup_hooks:
+#        - ${print_documentId()}
+-   name: /api/list/create_doc
+    request:
+        data:
+            folderId: '0'
+            type: '0'
+        headers:
+            content-type: application/x-www-form-urlencoded; charset=UTF-8
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        method: POST
+        url: /api/list/create_doc
+    extract:
+        documentId: content.data.id
+#    setup_hooks:
+#        - ${print_documentId()}
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - null
+-   name: /doc${documentId}
+    request:
+        headers:
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+        method: GET
+        url: /doc${documentId}
+    extract:
+        memberId: "memberId: '(.*)'"
+    validate:
+    -   eq:
+        - status_code
+        - 200
+-   name: /api/document/get
+    request:
+        data:
+            docId: ${documentId}
+        headers:
+            content-type: application/x-www-form-urlencoded; charset=UTF-8
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        method: POST
+        url: /api/document/get
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - Success
+    -   eq: [content.data.name, "无标题"]
+-   name: /api/user/current_level
+    request:
+        data: ''
+        headers:
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        method: POST
+        params:
+            document_id: ${documentId}
+        url: /api/user/current_level
+    extract:
+        userId: content.data.id
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - Success
+-   name: /api/ticket/register
+    request:
+        headers:
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        method: GET
+        url: /api/ticket/register
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - Success
+    -   len_eq: [content.data.ticket, 32]
+-   name: /api/middleware/members
+    request:
+        headers:
+            request-id: members:${memberId}:1563774199323
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        method: GET
+        params:
+            documentId: ${documentId}
+            memberId: '${memberId}'
+        url: /api/middleware/members
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - success
+-   name: /api/middleware/message
+    request:
+        headers:
+            content-type: application/json; charset=UTF-8
+            member-id: '${memberId}'
+            request-id: MESSAGE:3877624:${memberId}:2
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        json:
+            context:
+                appVersion: '0'
+                os: Windows
+                osVersion: '10'
+                platform: web
+            data:
+                message:
+                    content:
+                    -   name: nameChanged
+                        title: d
+                    documentId: ${documentId}
+                    type: CHANGE
+                    version: 0
+            engineType: MUBU
+            messageType: BROADCAST
+            reqId: 2
+            requestId: MESSAGE:3877624:${memberId}:2
+            token: ${documentId}
+        method: POST
+        url: /api/middleware/message
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - success
+-   name: /api/middleware/message
+    request:
+        headers:
+            content-type: application/json; charset=UTF-8
+            member-id: '${memberId}'
+            request-id: MESSAGE:3877624:${memberId}:4
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        json:
+            context:
+                appVersion: '0'
+                os: Windows
+                osVersion: '10'
+                platform: web
+            data:
+                message:
+                    content:
+                    -   name: nameChanged
+                        title: de
+                    documentId: ${documentId}
+                    type: CHANGE
+                    version: 1
+            engineType: MUBU
+            messageType: BROADCAST
+            reqId: 4
+            requestId: MESSAGE:3877624:${memberId}:4
+            token: ${documentId}
+        method: POST
+        url: /api/middleware/message
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - success
+-   name: /api/middleware/message
+    request:
+        headers:
+            content-type: application/json; charset=UTF-8
+            member-id: '${memberId}'
+            request-id: MESSAGE:3877624:${memberId}:5
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        json:
+            context:
+                appVersion: '0'
+                os: Windows
+                osVersion: '10'
+                platform: web
+            data:
+                message:
+                    content:
+                    -   name: nameChanged
+                        title: dem
+                    documentId: ${documentId}
+                    type: CHANGE
+                    version: 2
+            engineType: MUBU
+            messageType: BROADCAST
+            reqId: 5
+            requestId: MESSAGE:3877624:${memberId}:5
+            token: ${documentId}
+        method: POST
+        url: /api/middleware/message
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - success
+-   name: /api/middleware/message
+    request:
+        headers:
+            content-type: application/json; charset=UTF-8
+            member-id: '${memberId}'
+            request-id: MESSAGE:3877624:${memberId}:7
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        json:
+            context:
+                appVersion: '0'
+                os: Windows
+                osVersion: '10'
+                platform: web
+            data:
+                message:
+                    content:
+                    -   name: nameChanged
+                        title: demo
+                    documentId: ${documentId}
+                    type: CHANGE
+                    version: 3
+            engineType: MUBU
+            messageType: BROADCAST
+            reqId: 7
+            requestId: MESSAGE:3877624:${memberId}:7
+            token: ${documentId}
+        method: POST
+        url: /api/middleware/message
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - success
+-   name: /api/middleware/message
+    request:
+        headers:
+            content-type: application/json; charset=UTF-8
+            member-id: '${memberId}'
+            request-id: MESSAGE:3877624:${memberId}:9
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        json:
+            context:
+                appVersion: '0'
+                os: Windows
+                osVersion: '10'
+                platform: web
+            data:
+                message:
+                    content:
+                    -   name: nameChanged
+                        title: demo1
+                    documentId: ${documentId}
+                    type: CHANGE
+                    version: 4
+            engineType: MUBU
+            messageType: BROADCAST
+            reqId: 9
+            requestId: MESSAGE:3877624:${memberId}:9
+            token: ${documentId}
+        method: POST
+        url: /api/middleware/message
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - success
+-   name: /api/middleware/message
+    request:
+        headers:
+            content-type: application/json; charset=UTF-8
+            member-id: '${memberId}'
+            request-id: MESSAGE:3877624:${memberId}:11
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        json:
+            context:
+                appVersion: '0'
+                os: Windows
+                osVersion: '10'
+                platform: web
+            data:
+                message:
+                    content:
+                    -   name: nameChanged
+                        title: demo12
+                    documentId: ${documentId}
+                    type: CHANGE
+                    version: 5
+            engineType: MUBU
+            messageType: BROADCAST
+            reqId: 11
+            requestId: MESSAGE:3877624:${memberId}:11
+            token: ${documentId}
+        method: POST
+        url: /api/middleware/message
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - success
+-   name: /api/middleware/message
+    request:
+        headers:
+            content-type: application/json; charset=UTF-8
+            member-id: '${memberId}'
+            request-id: MESSAGE:3877624:${memberId}:12
+            user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+                (KHTML, like Gecko) Chrome/75.0.3770.80 Safari/537.36
+            x-requested-with: XMLHttpRequest
+        json:
+            context:
+                appVersion: '0'
+                os: Windows
+                osVersion: '10'
+                platform: web
+            data:
+                message:
+                    content:
+                    -   name: nameChanged
+                        title: demo789
+                    documentId: ${documentId}
+                    type: CHANGE
+                    version: 6
+            engineType: MUBU
+            messageType: BROADCAST
+            reqId: 12
+            requestId: MESSAGE:3877624:${memberId}:12
+            token: ${documentId}
+        method: POST
+        url: /api/middleware/message
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - content.code
+        - 0
+    -   eq:
+        - content.msg
+        - success
