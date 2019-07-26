@@ -3,7 +3,7 @@ config:
     variables:
         new_title: "new_title_${get_timestamp()}"
     verify: False
-#    base_url: ${get_base_url()}
+    base_url: ${get_base_url()}  # 加上这行代码才不会报 base url missed! 的错误
 teststeps:
 -   name: create new doc
     testcase: testcases/create_doc.yml

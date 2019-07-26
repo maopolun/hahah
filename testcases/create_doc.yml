@@ -2,7 +2,7 @@ config:
     name: creat new doc
     variables: {}
     verify: False
-#    base_url: ${get_base_url()}
+    base_url: ${get_base_url()}  # 加上这行代码才不会报 base url missed! 的错误
     export:
         - documentId
         - memberId
