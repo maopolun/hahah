@@ -5,7 +5,7 @@ def sleep(n_secs):
     time.sleep(n_secs)
 
 def get_timestamp():
-    return str(time.strftime('%Y-%m-%d %X'))
+    return time.strftime('%Y-%m-%d %X')
 
 def print_documentId():
     # print('documentId是：%s' % id)
